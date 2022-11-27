@@ -56,9 +56,10 @@ public class DigitsSumCalculator {
 
 #### Task 1. Season determiner.
 
-Implement the program that will print the season name to the console by the number of the month.
-If month is incorrect -> print "Wrong month number". Month will be passed as the method argument.
-(Example: "1" -> "Winter", 0 -> "Wrong month number")
+Implement the method `tellTheSeason` that takes a number of a month and prints a season name if a month number is valid,
+otherwise the method prints `Wrong month number`.
+
+`Example: 1 -> "Winter", 0 -> "Wrong month number"`
 
 ```java
 public class SeasonDeterminer {
@@ -69,9 +70,8 @@ public class SeasonDeterminer {
 
 #### Task 2. Triangle sides validator.
 
-Create a program that will consume 3 points as method arguments and will print to the console if
-those points can build up a valid triangle or not. (output when correct: "this is a valid triangle", otherwise :
-"it's not a triangle")
+Implement the method `validate` that takes three side lengths and prints `this is a valid triangle` if a triangle
+with these sides exists, otherwise - `it's not a triangle`.
 
 ```java
 public class TriangleValidator {
@@ -83,9 +83,10 @@ public class TriangleValidator {
 
 #### Task 3. Days in a month.
 
-Create a program that will consume a year and a month (validation is required) and will print amount
-of days in this month considering also if a year is leap or not.(prints amount of days or else "invalid date",
-negative years are not accepted)
+Implement the `printDays` method that takes a year and month, validates passed values and prints the number of days
+in this month  considering a leap year.
+
+If a year is negative or a month is not in a range 1 through 12 prints `invalid date`.
 
 ```java
 public class DaysInMonth {
@@ -97,10 +98,12 @@ public class DaysInMonth {
 
 #### Task 4. Integer divider.
 
-Create a program that will consume 2 integers from method args (dividend and divider) and will
-perform integer division of dividend be divider, save the value, and then will multiply result by divider and will if
-got value is equal to dividend will print:"can be divided completely", otherwise "cannot be divided completely" or
-"division by zero".
+Implement the method `printCompletelyDivided` that takes two integers and prints one of the following statement:
+1. `can be divided completely`, when a quotient, result of integer division of `dividend` by `divisor`,
+multiplied by `divisor` is equal to `dividend`;
+2. `cannot be divided completely`, when the condition from the first paragraph is not met;
+3. `division by zero`, when a `divider` is equal to zero;
+
 
 ```java
 public class IntegerDivider {
@@ -111,9 +114,9 @@ public class IntegerDivider {
 
 #### Task 5. Coordinate Pane.
 
-Create a program that will consume 2 integers from method args as data of a coordinate point in a XY
-coordinate system and determine in which quadrant the coordinate point lies(beginning with top right:"first", "second",
-"third", "fourth", "zero"):
+Implement the `printQuadrant` method that takes two integer coordinates of a point of a
+two-dimensional Cartesian system and prints a quadrant in which this point lies
+(`first`, `second`, `third`, `fourth` or `zero`).
 
 ```java
 public class CoordinatePane {
@@ -124,8 +127,8 @@ public class CoordinatePane {
 
 #### Task 6. Bitwise values swap.
 
-Implement the program that will swap 2 variables without creating new variables or objects,
-using bitwise operators:
+Implement the `swap` method that takes two integer parameters, swaps its values (with help of bitwise operation
+without creating new variables or objects), and then outputs them out.
 
 ```java
 public class BitwiseValuesSwap {

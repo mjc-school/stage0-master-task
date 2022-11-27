@@ -32,7 +32,9 @@
 
 #### Task 1. Numbers reverter.
 
-Revert 3-digit number that will be passed (e.g.: given -> 489, expected -> 984) and print it. Code snippet:
+Implement the method `revert` that takes a three-digit number and prints its digits in reverse order.
+
+`Example: given -> 489, expected -> 984)`
 
 ```java
 public class NumberReverter {
@@ -41,12 +43,9 @@ public class NumberReverter {
 }
 ```
 
-Where number - variable that should be used within the program.
-
 #### Task 2. Digits sum calculator.
 
-You will be given a four-digit number your task will be to find the sum of all digits in the
-given number. Code snippet:
+Implement the method `calculateSum` that takes a four-digit number and prints a sum of its digits.
 
 ```java
 public class DigitsSumCalculator {
@@ -54,8 +53,6 @@ public class DigitsSumCalculator {
     }
 }
 ```
-
-Where number - variable that should be used within the program.
 
 ## Conditions
 

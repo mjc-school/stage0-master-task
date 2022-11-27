@@ -34,10 +34,12 @@
 
 Revert 3-digit number that will be passed (e.g.: given -> 489, expected -> 984) and print it. Code snippet:
 
-        public class NumberReverter {
-            public void revert(int number) {
-            }
-        }
+```java
+public class NumberReverter {
+    public void revert(int number) {
+    }
+}
+```
 
 Where number - variable that should be used within the program.
 
@@ -46,10 +48,12 @@ Where number - variable that should be used within the program.
 You will be given a four-digit number your task will be to find the sum of all digits in the
 given number. Code snippet:
 
-        public class DigitsSumCalculator {
-            public void calculateSum(int number) {
-            }
-        }
+```java
+public class DigitsSumCalculator {
+    public void calculateSum(int number) {
+    }
+}
+```
 
 Where number - variable that should be used within the program.
 
@@ -61,10 +65,12 @@ Implement the program that will print the season name to the console by the numb
 If month is incorrect -> print "Wrong month number". Month will be passed as the method argument.
 (Example: "1" -> "Winter", 0 -> "Wrong month number")
 
-     public class SeasonDeterminer {
-        public void tellTheSeason(int monthNumber) {
-        }
-     }
+```java
+public class SeasonDeterminer {
+    public void tellTheSeason(int monthNumber) {
+    }
+}
+```
 
 #### Task 2. Triangle sides validator.
 
@@ -72,10 +78,13 @@ Create a program that will consume 3 points as method arguments and will print t
 those points can build up a valid triangle or not. (output when correct: "this is a valid triangle", otherwise :
 "it's not a triangle")
 
-     public class TriangleValidator {
-         public void validate(double firstSide, double secondSide, double thirdSide) {
-         }
-     }
+```java
+public class TriangleValidator {
+    public void validate(double firstSide, double secondSide, double thirdSide) {
+    }
+}
+```
+
 
 #### Task 3. Days in a month.
 
@@ -83,11 +92,13 @@ Create a program that will consume a year and a month (validation is required) a
 of days in this month considering also if a year is leap or not.(prints amount of days or else "invalid date",
 negative years are not accepted)
 
-    public class DaysInMonth {
-        public void printDays(int year, int month) {
-    
-        }
+```java
+public class DaysInMonth {
+    public void printDays(int year, int month) {
+
     }
+}
+```
 
 #### Task 4. Integer divider.
 
@@ -96,11 +107,12 @@ perform integer division of dividend be divider, save the value, and then will m
 got value is equal to dividend will print:"can be divided completely", otherwise "cannot be divided completely" or
 "division by zero".
 
-       public class IntegerDivider {
-           public void printCompletelyDivided(int dividend, int divider) {
-       
-           }
-       }
+```java
+public class IntegerDivider {
+   public void printCompletelyDivided(int dividend, int divider) {
+   }
+}
+```
 
 #### Task 5. Coordinate Pane.
 
@@ -108,21 +120,24 @@ Create a program that will consume 2 integers from method args as data of a coor
 coordinate system and determine in which quadrant the coordinate point lies(beginning with top right:"first", "second",
 "third", "fourth", "zero"):
 
-       public class CoordinatePane {
-           public void printQuadrant(int x, int y) {
-       
-           }
-       }
+```java
+public class CoordinatePane {
+   public void printQuadrant(int x, int y) {
+   }
+}
+```
 
 #### Task 6. Bitwise values swap.
 
 Implement the program that will swap 2 variables without creating new variables or objects,
 using bitwise operators:
 
-     public class BitwiseValuesSwap {
-         public void swap(int first, int second) {
-         }
-     }
+```java
+public class BitwiseValuesSwap {
+    public void swap(int first, int second) {
+    }
+}
+```
 
 ## LOOPS
 
@@ -131,24 +146,28 @@ using bitwise operators:
 Write a program that prompts the user to input a positive integer. It should then print the
 multiplication table of that number.
 
-    public class MultiplicationTable {
-        public void printTable(int numberTableToPrint) {
-        }
+```java
+public class MultiplicationTable {
+    public void printTable(int numberTableToPrint) {
     }
+}
+```
 
 #### Task 2. Pyramid
 
 Write a program that will print
 
-    public class Pyramid {
-      public void printPyramid(int cathetusLength) {
-  
-      }
-
-      public static void main(String[] args) {
-          new Pyramid().printPyramid(7);
-      }
+```java
+public class Pyramid {
+    public void printPyramid(int cathetusLength) {
+    
     }
+
+    public static void main(String[] args) {
+      new Pyramid().printPyramid(7);
+    }
+}
+```
 
 :![img.png](https://github.com/mjc-school/MJC-School/blob/main/stage%20%230/module%20%234.%20Java%20Fundamentals/lesson%20%232.%20FOR%20statement/final-task/img/img.png?raw=true)
 
@@ -156,29 +175,33 @@ Write a program that will print
 
 Write a program that will find power of any number using for loop
 
-    public class Power {
-      public void printPower(int numberToPrint, int power) {
-  
-      }
-  
-      public static void main(String[] args) {
-          new Power().printPower(10, 3);
-      }
+```java
+public class Power {
+    public void printPower(int numberToPrint, int power) {
+    
     }
+
+    public static void main(String[] args) {
+      new Power().printPower(10, 3);
+    }
+}
+```
 
 #### Task 4. Half-Pyramid
 
 Write a program that will print
 
-    public class HalfPyramid {
-      public void printHalfPyramid(int cathetusLength) {
-  
-      }
-  
-      public static void main(String[] args) {
-          new HalfPyramid().printHalfPyramid(8);
-      }
+```java
+public class HalfPyramid {
+    public void printHalfPyramid(int cathetusLength) {
+    
     }
+
+    public static void main(String[] args) {
+      new HalfPyramid().printHalfPyramid(8);
+    }
+}
+```
 
 :![img_1.png](https://github.com/mjc-school/MJC-School/blob/main/stage%20%230/module%20%234.%20Java%20Fundamentals/lesson%20%232.%20FOR%20statement/final-task/img/img_1.png?raw=true)
 

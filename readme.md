@@ -32,7 +32,16 @@
 
 Implement the method `revert` that takes a three-digit number and prints its digits in reverse order.
 
-`Example: given -> 489, expected -> 984)`
+Example
+
+```
+Input:
+489
+Output:
+984
+```
+
+The class for writing a solution
 
 ```java
 public class NumberReverter {
@@ -44,6 +53,17 @@ public class NumberReverter {
 #### Task 2. Digits sum calculator.
 
 Implement the method `calculateSum` that takes a four-digit number and prints a sum of its digits.
+
+Example
+
+```
+Input:
+3471
+Output:
+15
+```
+
+The class for writing a solution
 
 ```java
 public class DigitsSumCalculator {
@@ -59,7 +79,25 @@ public class DigitsSumCalculator {
 Implement the method `tellTheSeason` that takes a number of a month and prints a season name if a month number is valid,
 otherwise the method prints `Wrong month number`.
 
-`Example: 1 -> "Winter", 0 -> "Wrong month number"`
+Example
+
+```
+Input:
+1
+Output:
+Winter
+```
+
+Example
+
+```
+Input:
+0
+Output:
+Wrong month number
+```
+
+The class for writing a solution
 
 ```java
 public class SeasonDeterminer {
@@ -73,6 +111,17 @@ public class SeasonDeterminer {
 Implement the method `validate` that takes three side lengths and prints `this is a valid triangle` if a triangle
 with these sides exists, otherwise - `it's not a triangle`.
 
+Example
+
+```
+Input:
+1 4 4
+Output:
+this is a valid triangle
+```
+
+The class for writing a solution
+
 ```java
 public class TriangleValidator {
     public void validate(double firstSide, double secondSide, double thirdSide) {
@@ -80,13 +129,23 @@ public class TriangleValidator {
 }
 ```
 
-
 #### Task 3. Days in a month.
 
 Implement the `printDays` method that takes a year and month, validates passed values and prints the number of days
 in this month  considering a leap year.
 
 If a year is negative or a month is not in a range 1 through 12 prints `invalid date`.
+
+Example
+
+```
+Input:
+2000 2
+Output:
+29
+```
+
+The class for writing a solution
 
 ```java
 public class DaysInMonth {
@@ -104,6 +163,16 @@ multiplied by `divisor` is equal to `dividend`;
 2. `cannot be divided completely`, when the condition from the first paragraph is not met;
 3. `division by zero`, when a `divider` is equal to zero;
 
+Example
+
+```
+Input:
+15 5
+Output:
+can be divided completely
+```
+
+The class for writing a solution
 
 ```java
 public class IntegerDivider {
@@ -118,6 +187,17 @@ Implement the `printQuadrant` method that takes two integer coordinates of a poi
 two-dimensional Cartesian system and prints a quadrant in which this point lies
 (`first`, `second`, `third`, `fourth` or `zero`).
 
+Example
+
+```
+Input:
+-1 1
+Output:
+second
+```
+
+The class for writing a solution
+
 ```java
 public class CoordinatePane {
    public void printQuadrant(int x, int y) {
@@ -129,6 +209,18 @@ public class CoordinatePane {
 
 Implement the `swap` method that takes two integer parameters, swaps its values (with help of bitwise operation
 without creating new variables or objects), and then outputs them out.
+
+Example
+
+```
+Input:
+6 7
+Output:
+7
+6
+```
+
+The class for writing a solution
 
 ```java
 public class BitwiseValuesSwap {
@@ -144,6 +236,26 @@ public class BitwiseValuesSwap {
 Implement the `printTable` method that takes a number and prints multiplication operations of numbers 1 through 10
 by the passed number.
 
+Example
+
+```
+Input:
+3
+Output:
+1 x 3 = 3
+2 x 3 = 6
+3 x 3 = 9
+4 x 3 = 12
+5 x 3 = 15
+6 x 3 = 18
+7 x 3 = 21
+8 x 3 = 24
+9 x 3 = 27
+10 x 3 = 30
+```
+
+The class for writing a solution
+
 ```java
 public class MultiplicationTable {
     public void printTable(int numberTableToPrint) {
@@ -155,6 +267,22 @@ public class MultiplicationTable {
 
 Implement the `printPyramid` method that takes the height of a pyramid and prints the pyramid from numbers like in the
 picture and according to the passed height.
+
+Example
+
+```
+Input:
+6
+Output:
+     1
+    212
+   32123
+  4321234
+ 543212345
+65432123456
+```
+
+The class for writing a solution
 
 ```java
 public class Pyramid {
@@ -175,6 +303,17 @@ public class Pyramid {
 Implement the `printPower` method, using a for loop, that takes base and power as integers and prints
 a raised base to the power.
 
+Example
+
+```
+Input:
+2 3
+Output:
+8
+```
+
+The class for writing a solution
+
 ```java
 public class Power {
     public void printPower(int numberToPrint, int power) {
@@ -191,6 +330,24 @@ public class Power {
 
 Implement the `printHalfPyramid` method that takes the height of a pyramid and prints the pyramid using
 asterisk symbols like in the picture and according to the passed height.
+
+Example
+
+```
+Input:
+8
+Output:
+       *
+      **
+     ***
+    ****
+   *****
+  ******
+ *******
+********
+```
+
+The class for writing a solution
 
 ```java
 public class HalfPyramid {

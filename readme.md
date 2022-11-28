@@ -141,8 +141,8 @@ public class BitwiseValuesSwap {
 
 #### Task 1. Multiplication table
 
-Write a program that prompts the user to input a positive integer. It should then print the
-multiplication table of that number.
+Implement the `printTable` method that takes a number and prints multiplication operations of numbers 1 through 10
+by the passed number.
 
 ```java
 public class MultiplicationTable {
@@ -153,7 +153,8 @@ public class MultiplicationTable {
 
 #### Task 2. Pyramid
 
-Write a program that will print
+Implement the `printPyramid` method that takes the height of a pyramid and prints the pyramid from numbers like in the
+picture and according to the passed height.
 
 ```java
 public class Pyramid {
@@ -171,7 +172,8 @@ public class Pyramid {
 
 #### Task 3. Power
 
-Write a program that will find power of any number using for loop
+Implement the `printPower` method, using a for loop, that takes base and power as integers and prints
+a raised base to the power.
 
 ```java
 public class Power {
@@ -187,7 +189,8 @@ public class Power {
 
 #### Task 4. Half-Pyramid
 
-Write a program that will print
+Implement the `printHalfPyramid` method that takes the height of a pyramid and prints the pyramid using
+asterisk symbols like in the picture and according to the passed height.
 
 ```java
 public class HalfPyramid {

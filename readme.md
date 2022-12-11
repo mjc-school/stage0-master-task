@@ -76,7 +76,7 @@ public class DigitsSumCalculator {
 
 #### Task 1. Season determiner.
 
-Implement the method `tellTheSeason` that takes a number of a month and prints a season name if a month number is valid,
+Implement the method `tellTheSeason` that takes a number of a month and prints a season name if a month number is valid;
 otherwise the method prints `Wrong month number`.
 
 Example
@@ -131,8 +131,8 @@ public class TriangleValidator {
 
 #### Task 3. Days in a month.
 
-Implement the `printDays` method that takes a year and month, validates passed values and prints the number of days
-in this month  considering a leap year.
+Implement the `printDays` method that takes a year and month, validates passed values, and prints the number of days
+in this month considering a leap year.
 
 If a year is negative or a month is not in a range 1 through 12 prints `invalid date`.
 
@@ -157,8 +157,8 @@ public class DaysInMonth {
 
 #### Task 4. Integer divider.
 
-Implement the method `printCompletelyDivided` that takes two integers and prints one of the following statement:
-1. `can be divided completely`, when a quotient, result of integer division of `dividend` by `divisor`,
+Implement the method `printCompletelyDivided` that takes two integers and prints one of the following statements:
+1. `can be divided completely`, when a quotient, result of integer division of `dividend` by `divisor`;
 multiplied by `divisor` is equal to `dividend`;
 2. `cannot be divided completely`, when the condition from the first paragraph is not met;
 3. `division by zero`, when a `divider` is equal to zero;
@@ -183,7 +183,7 @@ public class IntegerDivider {
 
 #### Task 5. Coordinate Pane.
 
-Implement the `printQuadrant` method that takes two integer coordinates of a point of a
+Implement the `printQuadrant` method that takes two integer coordinates of a point in a
 two-dimensional Cartesian system and prints a quadrant in which this point lies
 (`first`, `second`, `third`, `fourth` or `zero`).
 
@@ -207,7 +207,7 @@ public class CoordinatePane {
 
 #### Task 6. Bitwise values swap.
 
-Implement the `swap` method that takes two integer parameters, swaps its values (with help of bitwise operation
+Implement the `swap` method that takes two integer parameters, and swaps its values (with help of bitwise operation
 without creating new variables or objects), and then outputs them out.
 
 Example

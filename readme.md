@@ -158,7 +158,7 @@ public class DaysInMonth {
 #### Task 4. Integer divider.
 
 Implement the method `printCompletelyDivided` that takes two integers and prints one of the following statements:
-1. `can be divided completely`, when a quotient, result of integer division of `dividend` by `divisor`;
+1. `can be divided completely`, when a quotient, result of integer division of `dividend` by `divisor`,
 multiplied by `divisor` is equal to `dividend`;
 2. `cannot be divided completely`, when the condition from the first paragraph is not met;
 3. `division by zero`, when a `divider` is equal to zero;

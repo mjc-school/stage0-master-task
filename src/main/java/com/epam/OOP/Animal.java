@@ -16,6 +16,6 @@ public class Animal {
         String paw = numberOfPaws > 1 ? "paws" : "paw";
         String hasOrNot = hasFur ? "a" : "no";
         return "This animal is mostly " + color
-                + ". It has " + numberOfPaws + paw + " and " + hasOrNot + " fur.";
+                + ". It has " + numberOfPaws + " " + paw + " and " + hasOrNot + " fur.";
     }
 }

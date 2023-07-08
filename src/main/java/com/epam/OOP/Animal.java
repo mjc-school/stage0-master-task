@@ -15,9 +15,9 @@ public class Animal {
     public String getDescription(){
         String res = "This animal is mostly " + color + ".";
         if (this.numberOfPaws == 1){
-            res += "It has " + numberOfPaws + " paw ";
+            res += " It has " + numberOfPaws + " paw ";
         } else {
-            res += "It has " + numberOfPaws + " paws ";
+            res += " It has " + numberOfPaws + " paws ";
         }
         if (this.hasFur){
             res += "and a fur.";

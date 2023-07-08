@@ -15,7 +15,7 @@ public class HalfPyramid {
             }
             pyramid += temp + "\n";
         }
-        System.out.println(pyramid);
+        System.out.print(pyramid);
     }
 
     public static void main(String[] args) {

@@ -54,15 +54,19 @@ public class ArrayTasks {
      * arr = [99, -7, 102], number = -7    ->   2 arr = [5, -3, -4],   number = 10    ->  -1
      */
     public int findIndexOfNumber(int[] arr, int number) {
-        int index = 0;
+        int index = -1;
         for (int i = 0; i < arr.length;i++) {
             if (arr[i] == number) {
                 index = i;
             }
         }
-        return index;
+        if (index >= 0) {
+            return  index;
+        }
+        else {
+            return  -1;
+        }
     }
-
     /**
      * Return the new String[] array obtained from the arr array by reversing the order of the elements.
      * <p>
@@ -91,7 +95,7 @@ public class ArrayTasks {
     public int[] getOnlyPositiveNumbers(int[] arr) {
         int counterPoses = 0;
         for (int i = 0; i < arr.length;i++) {
-            if (i > 0) {
+            if (arr[i] > 0) {
                 counterPoses++;
             }
         }
@@ -104,9 +108,7 @@ public class ArrayTasks {
                 index++;
             }
         }
-
         return poses;
-
     }
 
     /**
@@ -120,6 +122,22 @@ public class ArrayTasks {
      */
     public int[][] sortRaggedArray(int[][] arr) {
         return null;
+    }
+    public static void main(String[] args) {
+        int[] arr = {5,2,3,1,5};
+        int[] sorted = new int[arr.length];
+
+        for (int i = 0; i < arr.length;i++) {
+            int cur = arr[0];
+
+
+        }
+        System.out.println(sorted[0]);
+        System.out.println(sorted[1]);
+        System.out.println(sorted[2]);
+        System.out.println(sorted[3]);
+        System.out.println(sorted[4]);
+
     }
 
 }

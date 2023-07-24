@@ -14,7 +14,7 @@ public class MultiplicationTable {
         int num = scanner.nextInt();
 
         for (int i = 0; i <= 9;i++) {
-            System.out.println(i+ " * " + numberTableToPrint + " = " + numberTableToPrint * i);
+            System.out.println(i+ " * " + numberTableToPrint + " = " + num * i);
         }
     }
 

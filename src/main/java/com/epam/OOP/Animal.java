@@ -15,9 +15,8 @@ class Animal {
     }
     String getDescription() {
         String article = this.hasFur ? "a" : "no";
-        String pawAmount = this.numberOfPaws == 1 ? "paw" : "paws";
+//        String pawAmount = this.numberOfPaws == 1 ? "paw" : "paws";
         return String.format(
-                "This animal is mostly %s." +
-                " It has %d %s and %s fur.",this.color,this.numberOfPaws,pawAmount,article);
+                "This animal is mostly %s. It has %d paws and %s fur.",this.color,this.numberOfPaws,article);
     }
 }

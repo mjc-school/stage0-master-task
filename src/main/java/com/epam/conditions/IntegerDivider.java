@@ -1,11 +1,6 @@
 package com.epam.conditions;
 
-class Main {
-    public static void main(String[] args) {
-        IntegerDivider i = new IntegerDivider();
-        i.printCompletelyDivided(5,0);
-    }
-}
+
 
 public class IntegerDivider {
 

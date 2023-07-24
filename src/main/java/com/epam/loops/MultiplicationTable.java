@@ -2,12 +2,6 @@ package com.epam.loops;
 
 import java.util.Scanner;
 
-class Main {
-    public static void main(String[] args) {
-        MultiplicationTable m = new MultiplicationTable();
-        m.printTable(9);
-    }
-}
 
 public class MultiplicationTable {
 

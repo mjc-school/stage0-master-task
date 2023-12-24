@@ -5,8 +5,7 @@ public class CoordinatePane {
     public void printQuadrant(int x, int y) {
         if (x == 0 || y == 0) {
             System.out.println("zero");
-        }
-        if (x > 0) {
+        } else if (x > 0) {
             if (y > 0) {
                 System.out.println("first");
             } else {

@@ -5,7 +5,11 @@ import java.time.YearMonth;
 public class DaysInMonth {
 
     public void printDays(int year, int month) {
-        System.out.println(YearMonth.of(year, month).lengthOfMonth());
+        if (month > 12 || month < 1 || year < 0) {
+            System.out.println("invalid date");
+        } else {
+            System.out.println(YearMonth.of(year, month).lengthOfMonth());
+        }
     }
 
 }

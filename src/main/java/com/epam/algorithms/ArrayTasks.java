@@ -24,7 +24,7 @@ public class ArrayTasks {
      */
     public int[] generateNumbers(int length) {
         int[] array = new int[length];
-        for(int i = 1; i <= length; i++) array[i] = i;
+        for(int i = 0; i < length; i++) array[i] = i+1;
         return array;
     }
 
@@ -36,9 +36,9 @@ public class ArrayTasks {
      * arr = [1, 3, 5]   -> sum = 9 arr = [5, -3, -4] -> sum = -2
      */
     public int totalSum(int[] arr) {
-        int summa = 0;
-        for (int j : arr) summa += j;
-        return summa;
+        int sum = 0;
+        for (int j : arr) sum += j;
+        return sum;
     }
 
     /**
@@ -49,16 +49,16 @@ public class ArrayTasks {
      * <p>
      * arr = [99, -7, 102], number = -7    ->   2 arr = [5, -3, -4],   number = 10    ->  -1
      */
-    public int findIndexOfNumber(int[] arr, int n) {
-        int ind = -1;
+    public int findIndexOfNumber(int[] arr, int number) {
+        int index = -1;
         for(int i = 0; i < arr.length; i++){
 
-            if(arr[i] == n) {
-                ind = i;
+            if(arr[i] == number) {
+                index = i;
                 break;
             }
         }
-        return ind;
+        return index;
     }
 
     /**
@@ -153,24 +153,5 @@ public class ArrayTasks {
         }
         return sorted_arr;
     }
-    /*int[][] myArray = {
-                {1, 2},
-                {3, 4},
-                {5, 6},
-                {7, 8, 9, 10}, 
-                {11, 12},
-                {13, 14},
-                {15, 16},
-                {17, 18},
-                {19, 20},
-                {21, 22}
-        };
-        int[][] sorted_arr=sortRaggedArray(myArray);
-        for (int i = 0; i < sorted_arr.length; i++) {
-            for (int j = 0; j < sorted_arr[i].length; j++) {
-                System.out.print(sorted_arr[i][j] + " ");
-            }
-            System.out.println();
-        }*/
 
 }

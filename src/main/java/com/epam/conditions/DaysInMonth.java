@@ -8,7 +8,7 @@ public class DaysInMonth {
 
         if(month >= 1 && month <= 12 && year >= 0) {
 
-            if(year % 4 == 0 && month == 2) System.out.println(29);
+            if ((year % 4 == 0 && year % 100 != 0) || year % 400 = 0) System.out.println(29);
             else System.out.println(day_in_month[month-1]);
         }
         else System.out.println("invalid date");
